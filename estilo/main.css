@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    
+    background-color: rgb(11, 11, 11);
+    overflow-x: hidden;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+
+
+#logo {
+    width: 200px;
+    padding-top: 20px;
+}
+
+nav {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+    background-color: rgb(111, 109, 109);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+nav > a > abbr > i {
+    
+    color: white;
+    display: flex;
+    font-size: 2em;
+    padding: 10px 0px;
+    margin: 0px 12vw;
+}
+
+nav > a > abbr > i:hover {
+    color: rgb(62, 56, 56);
+}
+
+#imgperfil {
+    
+    width: 100vw;
+    background-image: linear-gradient(to bottom, white, black);
+}
+
+#perfil > h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    position: relative;
+    text-align: center;
+    top: -30vh;
+    font-size: 8vw;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 20px;
+}
+
+#perfil > p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    position: relative;
+    text-align: center;
+    top: -30vh;
+    font-size: 5vw;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 5px;
+}
+
+#quemsomos {
+    position: relative;
+    top: -90px;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+#tituloquemsomos {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    
+   
+}
+
+#barber {
+    width: 100%;
+    height: 45%;
+    
+    
+}
+
+#textquemsomos {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-indent: 20px;
+    text-align: justify;
+
+}
+
+#barberspartaqs {
+    color: brown;
+}
+
+
+#servicos {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    top: -40px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+ 
+#servicos > h1 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+
+#cabelo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#cortecabelo > h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+#cortecabelo > p {
+    text-align: justify;
+    padding: 10px;
+    text-indent: 20px;
+}
